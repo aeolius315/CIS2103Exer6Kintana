@@ -324,14 +324,14 @@ public class NewJFrame extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(rootPane, "Fields should not be Empty!", "Empty Fields", JOptionPane.WARNING_MESSAGE);
         }
         else{
-            userInfo.put("firstName", FNTF.getText());
-            userInfo.put("lastName", LNTF.getText());
-            userInfo.put("birthDate", BDTF.getText());
-            userInfo.put("email", EMTF.getText());
-            userInfo.put("contactNo", CNTF.getText());
-            userInfo.put("address", ADTF.getText());
+            userInfo.put("firstName", FNTF.getText().trim());
+            userInfo.put("lastName", LNTF.getText().trim());
+            userInfo.put("birthDate", BDTF.getText().trim());
+            userInfo.put("email", EMTF.getText().trim());
+            userInfo.put("contactNo", CNTF.getText().trim());
+            userInfo.put("address", ADTF.getText().trim());
             JOptionPane.showMessageDialog(rootPane, "Information has been Saved", "Information Saved", JOptionPane.INFORMATION_MESSAGE);
-        }
+            }
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void btnRstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRstActionPerformed
