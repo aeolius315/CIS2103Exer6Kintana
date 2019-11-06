@@ -342,6 +342,8 @@ public class NewJFrame extends javax.swing.JFrame {
         CNTF.setText("");
         ADTF.setText("");
         userInfo.clear();
+        JOptionPane.showMessageDialog(rootPane, "Information has been Reset", "Information Reset", JOptionPane.INFORMATION_MESSAGE);
+
     }//GEN-LAST:event_btnRstActionPerformed
 
     private void btnAddPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddPhotoActionPerformed
