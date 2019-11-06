@@ -9,6 +9,8 @@ import java.awt.Cursor;
 import java.util.HashMap;
 import javax.swing.JOptionPane;
 
+
+
 /**
  *
  * @author kintanara_cis21035
@@ -343,7 +345,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_btnRstActionPerformed
 
     private void btnAddPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddPhotoActionPerformed
-        
+
     }//GEN-LAST:event_btnAddPhotoActionPerformed
 
     private void btnRstMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRstMouseEntered
